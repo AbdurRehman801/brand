@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#header{
+    padding: 12px 24px;
+}
+.navbar-custom{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+    display: block !important;
+}
+.logo-div a{
+    display: inline-block;
+    color: #CB0000 !important;
+    font-size: 38px;
+    font-weight: 700;
+}
+.navbar-custom ul li a{
+    display: inline-block;
+    color: #000;
+    font-size: 18px;
+
+}
+.get-start-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.get-start-btn button{
+    background-color: #CB0000 !important;
+    font-size: 20px;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 15px 15px 0 15px;
+    border: none;
+}
+#banner-sec{
+    padding: 64px 0;
+    background: url(images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 868px;
+
+}
+#banner-sec h1{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+#banner-sec p{
+    color: #fff;
+    font-size: 18px;
+}
+.live-chat-btn{
+    padding: 5px 12px;
+    border: 1px solid #fff;
+    border-radius: 15px 15px 0 15px;
+    background: #fff;
+    color: #CB0000;
+    font-size: 18px;
+    font-weight: 400;
+}
+.quote-btn{
+    padding: 5px 12px;
+    border: 1px solid #fff;
+    border-radius: 15px 15px 0 15px;
+    background: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 24px;
+}
+.one-time-span{
+    margin-top: 24px;
+}
+.one-time-span span{
+    display: inline-block;
+    color: #fff;
+    border: 1px solid #CB0000;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 5px 16px;
+    border-radius: 30px;
+}
+.limited-edition{
+    margin-top: -18px;
+}
+.limited-edition p{
+    color: #fff;
+    font-size: 26px !important;
+    font-weight: 700;
+    padding: 5px 16px;
+}
+#client-sec{
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+}
+.join-heading{
+    border-right: 1px solid #707070;
+}
+.join-heading h2{
+    font-size: 60px;
+    color: #CB0000;
+    line-height: 42px;
+
+}
+.join-heading h2 span{
+    font-size: 40px;
+    color: #3D3D3D;
+}
+#about-sec{
+    padding: 64px 0;
+    
+}
+#about-sec h2{
+    font-size: 50px;
+    color: #CB0000;
+    font-weight: 700;
+    line-height: 48px;
+}
+#about-sec h2 span{
+    color: #3D3D3D;
+}
+#about-sec p{
+    font-size: 18px;
+    color: #787878;
+    line-height: 32px;
+    font-weight: 400;
+}
+.discuss-btn{
+    padding: 5px 12px;
+    border: 1px solid #CB0000;
+    border-radius: 15px 15px 0 15px;
+    background: #CB0000;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+.live-chat-btn{
+    padding: 5px 12px;
+    border: 1px solid #3D3D3D;
+    border-radius: 15px 15px 0 15px;
+    background: #3D3D3D;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 12px;
+}
+#experience-sec{
+    padding: 64px 0;
+
+}
+#experience-sec h2{
+    font-size: 50px;
+    color: #CB0000;
+    font-weight: 700;
+    line-height: 48px;
+}
+#experience-sec h2 span{
+    color: #3D3D3D;
+}
+#experience-sec p{
+    font-size: 18px;
+    color: #787878;
+    line-height: 32px;
+    font-weight: 400;
+}
+#services-sec{
+    padding: 64px 0;
+    position: relative;
+}
+#services-sec::before{
+    content: '';
+    position: absolute;
+    background: url(images/services-two.png);
+    width: 521px;
+    height: 516px;
+    left: 0;
+    top: 30%;
+
+}
+#services-sec::after{
+    content: '';
+    position: absolute;
+    background: url(images/services-two.png);
+    width: 521px;
+    height: 516px;
+    right: 0;
+    top: 30%;
+    z-index: -99;
+
+}
+#services-sec h2{
+    font-size: 50px;
+    color: #CB0000;
+    font-weight: 700;
+    line-height: 48px;
+}
+#services-sec h2 span{
+    color: #3D3D3D;
+
+}
+#services-sec p{
+    color: #787878;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
+#services-sec h4{
+    color: #3D3D3D;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+}
+#services-sec .web-dev{
+    padding: 32px 24px;
+    background: #CB0000;
+}
+#services-sec .web-dev h3{
+    color: #fff;
+    font-size: 30px;
+    line-height: 48px;
+    font-weight: 700;
+}
+#services-sec .web-dev p{
+    font-size: 18px;
+    color: #fff;
+    line-height: 32px;
+    font-weight: 400;
+}
+.web-btns{
+    padding: 16px 0;
+}
+ #services-sec .web-dev .web-get-start-btn{
+    padding: 5px 12px;
+    border: 1px solid #fff;
+    border-radius: 15px 15px 0 15px;
+    background: #fff;
+    color: #CB0000;
+    font-size: 18px;
+    font-weight: 400;
+} 
+ #services-sec .web-dev .web-quote-btn{
+    padding: 5px 12px;
+    border: 1px solid #707070;
+    border-radius: 15px 15px 0 15px;
+    background: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 24px;
+}
+#services-sec .logo{
+    background: #A40000;
+    position: relative;
+
+}
+#services-sec .logo h3{
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    transform: rotate(-90deg);
+    background: none;
+    width: 100%;
+
+}
+#services-sec .app{
+    background: #8A0000;
+    position: relative;
+}
+#services-sec .app h3{
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    transform: rotate(-90deg);
+    background: none;
+    width: 100%;
+
+}
+#services-sec .digital{
+    position: relative;
+    background: #6B0000;
+}
+#services-sec .digital h3{
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    transform: rotate(-90deg);
+    background: none;
+    width: 100%;
+
+}
+#services-sec .branding{
+    background: #B40B0B;
+    position: relative;
+}
+#services-sec .branding h3{
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    transform: rotate(-90deg);
+    background: none;
+    width: 100%;
+
+}
+#services-sec .seo{
+    background: #8A0000;
+    position: relative;
+}
+#services-sec .seo h3{
+    position: absolute;
+    top: 50%;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+    transform: rotate(-90deg);
+    background: none;
+    width: 100%;
+
+}
+#creative-sec{
+    padding: 64px 0;
+}
+.creative-one{
+    padding: 100px 0;
+    margin: 64px 0;
+}
+.creative-three{
+    padding: 100px 0;
+    margin: 92px 0;
+}
+#footer{
+    background: url(images/footer.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 64px 0;
+}
+#footer h2{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+#footer h3{
+    color: #fff;
+    font-size: 30px;
+    line-height: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#footer ul li{
+    color: #fff;
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 400;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#footer .first-para{
+    font-size: 18px;
+    color: #fff;
+    line-height: 24px;
+    margin-top: 24px;
+
+}
+#footer .copyright{
+    font-size: 18px;
+    color: #fff;
+    line-height: 24px;
+    text-align: center;
+
+}
